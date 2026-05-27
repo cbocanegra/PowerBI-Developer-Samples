@@ -63,6 +63,8 @@ $.ajax({
             console.error(errorMsg);
             return;
         });
+
+        report.fullscreen();
     },
 
     error: function (err) {
